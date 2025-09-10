@@ -10,9 +10,9 @@ Blockchain is currently one of the fastest-growing industries in the technology 
 For help/questions, email: dev-decal@blockchain.berkeley.edu
 
 ### Course Lecturers/Facilitators
-smagazi@berkeley.edu
-oliviali2028@berkeley.edu
-isaac_oh@berkeley.edu
-amanshah@berkeley.edu
-elsonliu28@berkeley.edu
+smagazi@berkeley.edu,
+oliviali2028@berkeley.edu,
+isaac_oh@berkeley.edu,
+amanshah@berkeley.edu,
+elsonliu28@berkeley.edu,
 fujiawang@berkeley.edu
