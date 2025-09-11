@@ -16,3 +16,12 @@ isaac_oh@berkeley.edu,
 amanshah@berkeley.edu,
 elsonliu28@berkeley.edu,
 fujiawang@berkeley.edu
+
+## Weekly Lecture Topics/YouTube Videos
+### Week 1
+But How Does BitCoin Actually Work: https://www.youtube.com/watch?v=bBC-nXj3Ng4 - Great video on Bitcoin's underlying structure. Worth the watch.
+Blockchain 101 - A Visual Demo: https://www.youtube.com/watch?v=_160oMzblY8 - Good video for understanding how nonce values are found for Bitcoin block headers + how blocks link together to form a "block-chain".
+
+### Week 2
+⚠️ In Progress ⚠️
+
