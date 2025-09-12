@@ -25,22 +25,21 @@ Blockchain 101 - A Visual Demo: https://www.youtube.com/watch?v=_160oMzblY8 - Go
 
 ### Week 2
 #### Topic Preview
-Development & Ecosystem Tools:
 
-Metamask: Crypto wallet for Ethereum and any other EVM compatible chain.
+##### Development & Ecosystem Tools
+- **MetaMask**: Crypto wallet for Ethereum and any other EVM-compatible chain.
 
-Etherscan: Block explorer for Ethereum. View and verify transactions, addresses, smart contracts, tokens, and blocks on Ethereum
+- **Etherscan**: Block explorer for Ethereum. View and verify transactions, addresses, smart contracts, tokens, and blocks on Ethereum.
 
-Foundry: Development framework for Ethereum smart contracts. Helps developers write, test, deploy, and interact with contracts
+- **Foundry**: Development framework for Ethereum smart contracts. Helps developers write, test, deploy, and interact with contracts.
 
-Remix IDE: Online IDE for writing, testing, and deploying Ethereum smart contracts. No installation needed!
+- **Remix IDE**: Online IDE for writing, testing, and deploying Ethereum smart contracts. No installation needed!
 
-Networks & Infrastructure:
+##### Networks & Infrastructure
+- **Testnets (Test Networks)**: Versions of Ethereum that behave like the real chain but use valueless test ETH. They let developers deploy, test, and debug smart contracts or dApps without risking real money.
 
-Testnets (Test Networks): Versions of Ethereum that behave like the real chain but use valueless test ETH. They let developers deploy, test, and debug smart contracts or dApps without risking real money.
+- **RPC (Remote Procedure Call)**: The “bridge” (URL endpoint) your wallet/dApp uses to connect to a blockchain network (mainnet, testnet, or another chain).
 
-RPC (Remote Procedure Call): The “bridge” (URL endpoint) your wallet/dApp uses to connect to a blockchain network (mainnet, testnet, or another chain)
-
-Solidity:
-A Headstart on Solidity programming language: Crypto Zombies is an interactive game that teaches you how to write Solidity smart contracts by making your own zombie NFT! Great way to get familiar with Solidity :)
+##### Learning Solidity
+- **Solidity**: A headstart on the Solidity programming language. *CryptoZombies* is an interactive game that teaches you how to write Solidity smart contracts by making your own zombie NFT! Great way to get familiar with Solidity. 🙂
 
