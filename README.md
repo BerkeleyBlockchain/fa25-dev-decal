@@ -6,7 +6,7 @@ Blockchain is currently one of the fastest-growing industries in the technology 
 
 ## Homework Submission Links
 
-[Homework #1](https://forms.gle/LNUEDvCWFdWMQq6o7) (Build a Blockchain in Python) - https://forms.gle/LNUEDvCWFdWMQq6o7
+Homework #1 (Build a Blockchain in Python) - https://forms.gle/LNUEDvCWFdWMQq6o7
 
 
 ## Contact Info
