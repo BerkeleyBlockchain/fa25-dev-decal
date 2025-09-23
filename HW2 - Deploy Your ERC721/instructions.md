@@ -182,7 +182,7 @@ To deploy to a real blockchain instead of anvil, we'll need to first create and 
 
 First, please install Metamask if you haven't already. One of our B@B Education members wrote [a guide that can help](https://sehyunc.notion.site/Metamask-Guide-a774de1a6516458db7904c061a4682aa).
 
-By default, Metamask only displays Ethereum Mainnet and a few other Ethereum testnets. We'll be using the Goerli testnet, which your wallet should already have saved.
+By default, Metamask only displays Ethereum Mainnet and a few other Ethereum testnets. We'll be using the Sepolia testnet, which your wallet should already have saved.
 
 >⚠️ I **strongly** advise making a new account for soley development purposes. Don't use an address that contains real assets.
 
@@ -193,31 +193,31 @@ We will be exporting the private key of this account and you never want to keep 
 
 ### Getting Testnet ETH
 
-Before we can send transactions on Goerli, we'll need some ETH. Since tokens don't have any real value on testnets, various "faucets" exist which dispense ETH freely. 
+Before we can send transactions on Sepolia, we'll need some ETH. Since tokens don't have any real value on testnets, various "faucets" exist which dispense ETH freely. 
 
-Here are a few faucets which you can use to get ether on Goerli.
+Here is a which you can use to get ether on Sepolia.
 
-* https://faucet.paradigm.xyz
-* https://www.alchemy.com/dapps/goerli-faucet
+* https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+
 
 ### Exporting Private Key
 
 Get your address' private key from Metamask. Here's a guide:
 https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-keyLinks to an external site.
 
->⚠️ Make sure this private key does not get saved or shared anywhere. Don't include it in your code (use .env variables). 
+>⚠️ Make sure this private key does not get saved or shared anywhere. DO NOT INCLUDE IT IN YOUR CODE (use .env variables)!
 
 ## Back To Foundry
 
-Now that we have a funded account with which we can send transactions to Goerli with, let's go back to Foundry and use the `forge` tool to do just that.
+Now that we have a funded account with which we can send transactions to Sepolia with, let's go back to Foundry and use the `forge` tool to do just that.
 
-For our RPC endpoint, we will no longer be using our localhost. Rather, we'll need to connect to a real Ethereum node running the Goerli testnet somewhere on the internet. Let's use [Ankr's](https://www.ankr.com/rpc/eth/eth_goerli/) free endpoint.
+For our RPC endpoint, we will no longer be using our localhost. Rather, we'll need to connect to a real Ethereum node running the Sepolia testnet somewhere on the internet. Let's use [Ankr's](https://www.ankr.com/rpc/eth/eth_sepolia/) free endpoint.
 
 As for the private key, we'll now be using our new Ethereum account's private key.
 
 Run this following command:
 
-```forge create NFT --rpc-url=https://rpc.ankr.com/eth_goerli --private-key=<YOUR PRIVATE KEY> --constructor-args <NAME> <SYMBOL>```
+```forge create NFT --rpc-url=https://rpc.ankr.com/eth_sepolia --private-key=<YOUR PRIVATE KEY> --constructor-args <NAME> <SYMBOL>```
 
 If everything went well, you should see your new contract's address printed to your terminal!
 
@@ -225,7 +225,7 @@ If everything went well, you should see your new contract's address printed to y
 
 Submit the contract address that you deployed to to this form:
 
-https://forms.gle/oUkNdhWH6RLsNneV6
+[https://forms.gle/oUkNdhWH6RLsNneV6](https://forms.gle/7ZahAVRRAFzy1SUSA)
 
 Congratulations! You've now deployed your (potentially) first smart contract! In the next class, we'll go further in depth into Solidity so that you'll be ready to develop your own code :) 
 
