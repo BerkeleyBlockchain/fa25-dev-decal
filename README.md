@@ -12,6 +12,8 @@ Homework #2 (Deploy Your ERC721) - https://forms.gle/7ZahAVRRAFzy1SUSA
 
 Homework #3 (Implementing NFT Marketplace) - https://forms.gle/pkdAWWhjLcRRWFYq8
 
+Homework #4 (Ethers.js) - https://forms.gle/vDHvu3qsEH1tmkUe7
+
 ## Contact Info
 
 For help/questions, email: dev-decal@blockchain.berkeley.edu
