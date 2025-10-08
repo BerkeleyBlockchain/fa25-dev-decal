@@ -1,0 +1,703 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "badGetBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "deposit",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "goodGetBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "storedBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405247600055610100806100176000396000f3fe608060405260043610603a5760003560e01c806379e62f9d14603f578063867c36d214605f578063d0e30db0146072578063e9eca99414607a575b600080fd5b348015604a57600080fd5b50475b60405190815260200160405180910390f35b348015606a57600080fd5b50600054604d565b6078608e565b005b348015608557600080fd5b50604d60005481565b34600080828254609d919060a4565b9091555050565b8082018082111560c457634e487b7160e01b600052601160045260246000fd5b9291505056fea2646970667358221220caf3a95a6f1186bebdf37dfdd4d27ad992d0b6ffa4189267a689ee5bff0511da64736f6c63430008150033",
+    "sourceMap": "59:608:19:-:0;;;183:21;167:13;:37;59:608;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405260043610603a5760003560e01c806379e62f9d14603f578063867c36d214605f578063d0e30db0146072578063e9eca99414607a575b600080fd5b348015604a57600080fd5b50475b60405190815260200160405180910390f35b348015606a57600080fd5b50600054604d565b6078608e565b005b348015608557600080fd5b50604d60005481565b34600080828254609d919060a4565b9091555050565b8082018082111560c457634e487b7160e01b600052601160045260246000fd5b9291505056fea2646970667358221220caf3a95a6f1186bebdf37dfdd4d27ad992d0b6ffa4189267a689ee5bff0511da64736f6c63430008150033",
+    "sourceMap": "59:608:19:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;217:161;;;;;;;;;;-1:-1:-1;289:21:19;217:161;;;160:25:22;;;148:2;133:18;217:161:19;;;;;;;384:133;;;;;;;;;;-1:-1:-1;431:7:19;457:13;384:133;;586:79;;;:::i;:::-;;100:28;;;;;;;;;;;;;;;;586:79;649:9;632:13;;:26;;;;;;;:::i;:::-;;;;-1:-1:-1;;586:79:19:o;196:222:22:-;261:9;;;282:10;;;279:133;;;334:10;329:3;325:20;322:1;315:31;369:4;366:1;359:15;397:4;394:1;387:15;279:133;196:222;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "badGetBalance()": "79e62f9d",
+    "deposit()": "d0e30db0",
+    "goodGetBalance()": "867c36d2",
+    "storedBalance()": "e9eca994"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"payable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"badGetBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"deposit\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"goodGetBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"storedBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ExternalCallOptimization.sol\":\"ExternalCallOptimization\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/ExternalCallOptimization.sol\":{\"keccak256\":\"0xacd707e36e64b9e7cda3621af5027739f7c0a495a617a529f8e9d8633e0240ef\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f1a7eaeb0d719e768018647d716543bbb0199e9d34e7dbf17ed9f7713560e0b2\",\"dweb:/ipfs/QmdK8EcwbNgBVLXwntHxBWc8K1uN5gKV1Fn8VDGM1AvnAz\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "payable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "badGetBalance",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "deposit"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "goodGetBalance",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "storedBalance",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/ExternalCallOptimization.sol": "ExternalCallOptimization"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/ExternalCallOptimization.sol": {
+        "keccak256": "0xacd707e36e64b9e7cda3621af5027739f7c0a495a617a529f8e9d8633e0240ef",
+        "urls": [
+          "bzz-raw://f1a7eaeb0d719e768018647d716543bbb0199e9d34e7dbf17ed9f7713560e0b2",
+          "dweb:/ipfs/QmdK8EcwbNgBVLXwntHxBWc8K1uN5gKV1Fn8VDGM1AvnAz"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/ExternalCallOptimization.sol",
+    "id": 43431,
+    "exportedSymbols": {
+      "ExternalCallOptimization": [
+        43430
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:636:19",
+    "nodes": [
+      {
+        "id": 43386,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:19",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".7"
+        ]
+      },
+      {
+        "id": 43430,
+        "nodeType": "ContractDefinition",
+        "src": "59:608:19",
+        "nodes": [
+          {
+            "id": 43388,
+            "nodeType": "VariableDeclaration",
+            "src": "100:28:19",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "e9eca994",
+            "mutability": "mutable",
+            "name": "storedBalance",
+            "nameLocation": "115:13:19",
+            "scope": 43430,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 43387,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "100:7:19",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 43400,
+            "nodeType": "FunctionDefinition",
+            "src": "135:76:19",
+            "nodes": [],
+            "body": {
+              "id": 43399,
+              "nodeType": "Block",
+              "src": "157:54:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 43397,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 43391,
+                      "name": "storedBalance",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43388,
+                      "src": "167:13:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "expression": {
+                        "arguments": [
+                          {
+                            "id": 43394,
+                            "name": "this",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -28,
+                            "src": "191:4:19",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_ExternalCallOptimization_$43430",
+                              "typeString": "contract ExternalCallOptimization"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_ExternalCallOptimization_$43430",
+                              "typeString": "contract ExternalCallOptimization"
+                            }
+                          ],
+                          "id": 43393,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "183:7:19",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 43392,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "183:7:19",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 43395,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "183:13:19",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "id": 43396,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "197:7:19",
+                      "memberName": "balance",
+                      "nodeType": "MemberAccess",
+                      "src": "183:21:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "167:37:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 43398,
+                  "nodeType": "ExpressionStatement",
+                  "src": "167:37:19"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 43389,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "146:2:19"
+            },
+            "returnParameters": {
+              "id": 43390,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "157:0:19"
+            },
+            "scope": 43430,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 43412,
+            "nodeType": "FunctionDefinition",
+            "src": "217:161:19",
+            "nodes": [],
+            "body": {
+              "id": 43411,
+              "nodeType": "Block",
+              "src": "272:106:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "arguments": [
+                        {
+                          "id": 43407,
+                          "name": "this",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -28,
+                          "src": "297:4:19",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_ExternalCallOptimization_$43430",
+                            "typeString": "contract ExternalCallOptimization"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_contract$_ExternalCallOptimization_$43430",
+                            "typeString": "contract ExternalCallOptimization"
+                          }
+                        ],
+                        "id": 43406,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "289:7:19",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": {
+                          "id": 43405,
+                          "name": "address",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "289:7:19",
+                          "typeDescriptions": {}
+                        }
+                      },
+                      "id": 43408,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "289:13:19",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 43409,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "303:7:19",
+                    "memberName": "balance",
+                    "nodeType": "MemberAccess",
+                    "src": "289:21:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 43404,
+                  "id": 43410,
+                  "nodeType": "Return",
+                  "src": "282:28:19"
+                }
+              ]
+            },
+            "functionSelector": "79e62f9d",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "badGetBalance",
+            "nameLocation": "226:13:19",
+            "parameters": {
+              "id": 43401,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "239:2:19"
+            },
+            "returnParameters": {
+              "id": 43404,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 43403,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 43412,
+                  "src": "263:7:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 43402,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "263:7:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "262:9:19"
+            },
+            "scope": 43430,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 43420,
+            "nodeType": "FunctionDefinition",
+            "src": "384:133:19",
+            "nodes": [],
+            "body": {
+              "id": 43419,
+              "nodeType": "Block",
+              "src": "440:77:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 43417,
+                    "name": "storedBalance",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 43388,
+                    "src": "457:13:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 43416,
+                  "id": 43418,
+                  "nodeType": "Return",
+                  "src": "450:20:19"
+                }
+              ]
+            },
+            "functionSelector": "867c36d2",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "goodGetBalance",
+            "nameLocation": "393:14:19",
+            "parameters": {
+              "id": 43413,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "407:2:19"
+            },
+            "returnParameters": {
+              "id": 43416,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 43415,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 43420,
+                  "src": "431:7:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 43414,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "431:7:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "430:9:19"
+            },
+            "scope": 43430,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 43429,
+            "nodeType": "FunctionDefinition",
+            "src": "586:79:19",
+            "nodes": [],
+            "body": {
+              "id": 43428,
+              "nodeType": "Block",
+              "src": "622:43:19",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 43426,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 43423,
+                      "name": "storedBalance",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43388,
+                      "src": "632:13:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "expression": {
+                        "id": 43424,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -15,
+                        "src": "649:3:19",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 43425,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "653:5:19",
+                      "memberName": "value",
+                      "nodeType": "MemberAccess",
+                      "src": "649:9:19",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "632:26:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 43427,
+                  "nodeType": "ExpressionStatement",
+                  "src": "632:26:19"
+                }
+              ]
+            },
+            "functionSelector": "d0e30db0",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "deposit",
+            "nameLocation": "595:7:19",
+            "parameters": {
+              "id": 43421,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "602:2:19"
+            },
+            "returnParameters": {
+              "id": 43422,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "622:0:19"
+            },
+            "scope": 43430,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ExternalCallOptimization",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43430
+        ],
+        "name": "ExternalCallOptimization",
+        "nameLocation": "68:24:19",
+        "scope": 43431,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 19
+}

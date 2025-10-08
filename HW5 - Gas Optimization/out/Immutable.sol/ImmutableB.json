@@ -1,0 +1,286 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x60a060405233608052348015601357600080fd5b5060805160a561002c60003960006031015260a56000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60537f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b03909116815260200160405180910390f3fea2646970667358221220223e0e58867972cec5f8dbc1e6e154d759e3ce7464d1b9bcaad3c3d74484b23264736f6c63430008150033",
+    "sourceMap": "124:73:27:-:0;;;184:10;151:43;;124:73;;;;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60537f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b03909116815260200160405180910390f3fea2646970667358221220223e0e58867972cec5f8dbc1e6e154d759e3ce7464d1b9bcaad3c3d74484b23264736f6c63430008150033",
+    "sourceMap": "124:73:27:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;151:43;;;;;;;;-1:-1:-1;;;;;178:32:56;;;160:51;;148:2;133:18;151:43:27;;;;;;",
+    "linkReferences": {},
+    "immutableReferences": {
+      "43791": [
+        {
+          "start": 49,
+          "length": 32
+        }
+      ]
+    }
+  },
+  "methodIdentifiers": {
+    "owner()": "8da5cb5b"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Immutable.sol\":\"ImmutableB\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Immutable.sol\":{\"keccak256\":\"0x4d4ca85286d8c8ef71605066a8c329d94436d4f16a31400ab6ccb9cb9e504e9e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b3e6cb16ad160957b01139f8c40423a740d81ff9d989c69dc4859bb5bf2a13a6\",\"dweb:/ipfs/QmQ88e8J7NKDLG8gxggaQ9qtJ78anbmoqzSMmJFxD3eywg\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "owner",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Immutable.sol": "ImmutableB"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Immutable.sol": {
+        "keccak256": "0x4d4ca85286d8c8ef71605066a8c329d94436d4f16a31400ab6ccb9cb9e504e9e",
+        "urls": [
+          "bzz-raw://b3e6cb16ad160957b01139f8c40423a740d81ff9d989c69dc4859bb5bf2a13a6",
+          "dweb:/ipfs/QmQ88e8J7NKDLG8gxggaQ9qtJ78anbmoqzSMmJFxD3eywg"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Immutable.sol",
+    "id": 43793,
+    "exportedSymbols": {
+      "ImmutableA": [
+        43787
+      ],
+      "ImmutableB": [
+        43792
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:165:27",
+    "nodes": [
+      {
+        "id": 43782,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:27",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".7"
+        ]
+      },
+      {
+        "id": 43787,
+        "nodeType": "ContractDefinition",
+        "src": "59:63:27",
+        "nodes": [
+          {
+            "id": 43786,
+            "nodeType": "VariableDeclaration",
+            "src": "86:33:27",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "8da5cb5b",
+            "mutability": "mutable",
+            "name": "owner",
+            "nameLocation": "101:5:27",
+            "scope": 43787,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 43783,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "86:7:27",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "expression": {
+                "id": 43784,
+                "name": "msg",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": -15,
+                "src": "109:3:27",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_magic_message",
+                  "typeString": "msg"
+                }
+              },
+              "id": 43785,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": false,
+              "lValueRequested": false,
+              "memberLocation": "113:6:27",
+              "memberName": "sender",
+              "nodeType": "MemberAccess",
+              "src": "109:10:27",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ImmutableA",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43787
+        ],
+        "name": "ImmutableA",
+        "nameLocation": "68:10:27",
+        "scope": 43793,
+        "usedErrors": [],
+        "usedEvents": []
+      },
+      {
+        "id": 43792,
+        "nodeType": "ContractDefinition",
+        "src": "124:73:27",
+        "nodes": [
+          {
+            "id": 43791,
+            "nodeType": "VariableDeclaration",
+            "src": "151:43:27",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "8da5cb5b",
+            "mutability": "immutable",
+            "name": "owner",
+            "nameLocation": "176:5:27",
+            "scope": 43792,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 43788,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "151:7:27",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "expression": {
+                "id": 43789,
+                "name": "msg",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": -15,
+                "src": "184:3:27",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_magic_message",
+                  "typeString": "msg"
+                }
+              },
+              "id": 43790,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": false,
+              "lValueRequested": false,
+              "memberLocation": "188:6:27",
+              "memberName": "sender",
+              "nodeType": "MemberAccess",
+              "src": "184:10:27",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ImmutableB",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43792
+        ],
+        "name": "ImmutableB",
+        "nameLocation": "133:10:27",
+        "scope": 43793,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 27
+}

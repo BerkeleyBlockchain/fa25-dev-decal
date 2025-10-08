@@ -1,0 +1,1836 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "badCaching",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "goodCaching",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "lastGasUsedOptimized",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "lastGasUsedRegular",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "myArray",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x61058060405260016080908152600260a052600360c052600460e052600561010052600661012052600761014052600861016052600961018052600a6101a052600b6101c0819052600c6101e0819052600d610200819052600e610220819052600f6102408190526010610260819052601161028081905260126102a081905260136102c081905260146102e08190526103008a90526103208990526103408890526103608790526103808690526103a08590526103c08490526103e08390526104008290526104208190526104409990995261046097909752610480959095526104a0939093526104c0919091526104e05261050052610520526105405261056052610110906000906028610123565b5034801561011d57600080fd5b50610188565b828054828255906000526020600020908101928215610163579160200282015b82811115610163578251829060ff16905591602001919060010190610143565b5061016f929150610173565b5090565b5b8082111561016f5760008155600101610174565b6101ef806101976000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c80636b51f6301461005c5780636eecf67b14610076578063cc3e57d91461007f578063e150422b14610092578063ea5287131461009a575b600080fd5b6100646100a3565b60405190815260200160405180910390f35b61006460015481565b61006461008d366004610158565b6100ed565b61006461010e565b61006460025481565b6000805a905060005b6000548110156100d657806100c081610187565b91505080806100ce90610187565b9150506100ac565b505a6100e290826101a0565b600281905592915050565b600081815481106100fd57600080fd5b600091825260209091200154905081565b6000805a905060005b600054811015610141578061012b81610187565b915050808061013990610187565b915050610117565b505a61014d90826101a0565b600181905592915050565b60006020828403121561016a57600080fd5b5035919050565b634e487b7160e01b600052601160045260246000fd5b60006001820161019957610199610171565b5060010190565b818103818111156101b3576101b3610171565b9291505056fea2646970667358221220efeeb001097ce69b2b9dc30330893e71c6658b4bf9bae61a6ee0dc442076c11764736f6c63430008150033",
+    "sourceMap": "87:188:18:-:0;59:844;87:188;112:1;59:844;87:188;;;115:1;87:188;;118:1;87:188;;121:1;87:188;;124:1;87:188;;127:1;87:188;;130:1;87:188;;133:1;87:188;;136:1;87:188;;139:2;87:188;;148:2;87:188;;;;152:2;87:188;;;;156:2;87:188;;;;160:2;87:188;;;;164:2;87:188;;;;168:2;87:188;;;;172:2;87:188;;;;176:2;87:188;;;;180:2;87:188;;;;184:2;87:188;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;87:188:18;;:::i;:::-;;59:844;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;59:844:18;;;-1:-1:-1;59:844:18;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c80636b51f6301461005c5780636eecf67b14610076578063cc3e57d91461007f578063e150422b14610092578063ea5287131461009a575b600080fd5b6100646100a3565b60405190815260200160405180910390f35b61006460015481565b61006461008d366004610158565b6100ed565b61006461010e565b61006460025481565b6000805a905060005b6000548110156100d657806100c081610187565b91505080806100ce90610187565b9150506100ac565b505a6100e290826101a0565b600281905592915050565b600081815481106100fd57600080fd5b600091825260209091200154905081565b6000805a905060005b600054811015610141578061012b81610187565b915050808061013990610187565b915050610117565b505a61014d90826101a0565b600181905592915050565b60006020828403121561016a57600080fd5b5035919050565b634e487b7160e01b600052601160045260246000fd5b60006001820161019957610199610171565b5060010190565b818103818111156101b3576101b3610171565b9291505056fea2646970667358221220efeeb001097ce69b2b9dc30330893e71c6658b4bf9bae61a6ee0dc442076c11764736f6c63430008150033",
+    "sourceMap": "59:844:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;632:269;;;:::i;:::-;;;160:25:20;;;148:2;133:18;632:269:18;;;;;;;282:33;;;;;;87:188;;;;;;:::i;:::-;;:::i;363:263::-;;;:::i;321:35::-;;;;;;632:269;671:7;690:19;712:9;690:31;;736:9;731:70;751:7;:14;747:18;;731:70;;;786:3;;;;:::i;:::-;;;;767;;;;;:::i;:::-;;;;731:70;;;;848:9;834:23;;:11;:23;:::i;:::-;811:20;:46;;;;632:269;-1:-1:-1;;632:269:18:o;87:188::-;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;87:188:18;:::o;363:263::-;401:7;420:19;442:9;420:31;;466:9;461:69;481:7;:14;477:18;;461:69;;;516:3;;;;:::i;:::-;;;;497;;;;;:::i;:::-;;;;461:69;;;;575:9;561:23;;:11;:23;:::i;:::-;540:18;:44;;;;363:263;-1:-1:-1;;363:263:18:o;196:180:20:-;255:6;308:2;296:9;287:7;283:23;279:32;276:52;;;324:1;321;314:12;276:52;-1:-1:-1;347:23:20;;196:180;-1:-1:-1;196:180:20:o;381:127::-;442:10;437:3;433:20;430:1;423:31;473:4;470:1;463:15;497:4;494:1;487:15;513:135;552:3;573:17;;;570:43;;593:18;;:::i;:::-;-1:-1:-1;640:1:20;629:13;;513:135::o;653:128::-;720:9;;;741:11;;;738:37;;;755:18;;:::i;:::-;653:128;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "badCaching()": "e150422b",
+    "goodCaching()": "6b51f630",
+    "lastGasUsedOptimized()": "ea528713",
+    "lastGasUsedRegular()": "6eecf67b",
+    "myArray(uint256)": "cc3e57d9"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"badCaching\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"goodCaching\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"lastGasUsedOptimized\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"lastGasUsedRegular\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"myArray\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/ArrayLength.sol\":\"ArrayLength\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/ArrayLength.sol\":{\"keccak256\":\"0xee7f5c9bb4a95c1dcbcd9233436ba2490fe80ffafdc0849964d8125b60330f66\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6ffd9a77e36dc4a9a3a9ac7b626e7574b6c9b74898d8b5555eef35c22d5f3e2b\",\"dweb:/ipfs/Qmbn7xpNFprbdTdPuN8WfVE8BN32CuiKeCZXTeSsdzR1KZ\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "badCaching",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "goodCaching",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "lastGasUsedOptimized",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "lastGasUsedRegular",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "myArray",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/ArrayLength.sol": "ArrayLength"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/ArrayLength.sol": {
+        "keccak256": "0xee7f5c9bb4a95c1dcbcd9233436ba2490fe80ffafdc0849964d8125b60330f66",
+        "urls": [
+          "bzz-raw://6ffd9a77e36dc4a9a3a9ac7b626e7574b6c9b74898d8b5555eef35c22d5f3e2b",
+          "dweb:/ipfs/Qmbn7xpNFprbdTdPuN8WfVE8BN32CuiKeCZXTeSsdzR1KZ"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/ArrayLength.sol",
+    "id": 43441,
+    "exportedSymbols": {
+      "ArrayLength": [
+        43440
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:871:18",
+    "nodes": [
+      {
+        "id": 43321,
+        "nodeType": "PragmaDirective",
+        "src": "32:25:18",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".7"
+        ]
+      },
+      {
+        "id": 43440,
+        "nodeType": "ContractDefinition",
+        "src": "59:844:18",
+        "nodes": [
+          {
+            "id": 43365,
+            "nodeType": "VariableDeclaration",
+            "src": "87:188:18",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "cc3e57d9",
+            "mutability": "mutable",
+            "name": "myArray",
+            "nameLocation": "101:7:18",
+            "scope": 43440,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+              "typeString": "uint256[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 43322,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "87:4:18",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "id": 43323,
+              "nodeType": "ArrayTypeName",
+              "src": "87:6:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                "typeString": "uint256[]"
+              }
+            },
+            "value": {
+              "components": [
+                {
+                  "hexValue": "31",
+                  "id": 43324,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "112:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_1_by_1",
+                    "typeString": "int_const 1"
+                  },
+                  "value": "1"
+                },
+                {
+                  "hexValue": "32",
+                  "id": 43325,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "115:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_2_by_1",
+                    "typeString": "int_const 2"
+                  },
+                  "value": "2"
+                },
+                {
+                  "hexValue": "33",
+                  "id": 43326,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "118:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_3_by_1",
+                    "typeString": "int_const 3"
+                  },
+                  "value": "3"
+                },
+                {
+                  "hexValue": "34",
+                  "id": 43327,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "121:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_4_by_1",
+                    "typeString": "int_const 4"
+                  },
+                  "value": "4"
+                },
+                {
+                  "hexValue": "35",
+                  "id": 43328,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "124:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_5_by_1",
+                    "typeString": "int_const 5"
+                  },
+                  "value": "5"
+                },
+                {
+                  "hexValue": "36",
+                  "id": 43329,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "127:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_6_by_1",
+                    "typeString": "int_const 6"
+                  },
+                  "value": "6"
+                },
+                {
+                  "hexValue": "37",
+                  "id": 43330,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "130:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_7_by_1",
+                    "typeString": "int_const 7"
+                  },
+                  "value": "7"
+                },
+                {
+                  "hexValue": "38",
+                  "id": 43331,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "133:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_8_by_1",
+                    "typeString": "int_const 8"
+                  },
+                  "value": "8"
+                },
+                {
+                  "hexValue": "39",
+                  "id": 43332,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "136:1:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_9_by_1",
+                    "typeString": "int_const 9"
+                  },
+                  "value": "9"
+                },
+                {
+                  "hexValue": "3130",
+                  "id": 43333,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "139:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_10_by_1",
+                    "typeString": "int_const 10"
+                  },
+                  "value": "10"
+                },
+                {
+                  "hexValue": "3131",
+                  "id": 43334,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "148:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_11_by_1",
+                    "typeString": "int_const 11"
+                  },
+                  "value": "11"
+                },
+                {
+                  "hexValue": "3132",
+                  "id": 43335,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "152:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_12_by_1",
+                    "typeString": "int_const 12"
+                  },
+                  "value": "12"
+                },
+                {
+                  "hexValue": "3133",
+                  "id": 43336,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "156:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_13_by_1",
+                    "typeString": "int_const 13"
+                  },
+                  "value": "13"
+                },
+                {
+                  "hexValue": "3134",
+                  "id": 43337,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "160:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_14_by_1",
+                    "typeString": "int_const 14"
+                  },
+                  "value": "14"
+                },
+                {
+                  "hexValue": "3135",
+                  "id": 43338,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "164:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_15_by_1",
+                    "typeString": "int_const 15"
+                  },
+                  "value": "15"
+                },
+                {
+                  "hexValue": "3136",
+                  "id": 43339,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "168:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_16_by_1",
+                    "typeString": "int_const 16"
+                  },
+                  "value": "16"
+                },
+                {
+                  "hexValue": "3137",
+                  "id": 43340,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "172:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_17_by_1",
+                    "typeString": "int_const 17"
+                  },
+                  "value": "17"
+                },
+                {
+                  "hexValue": "3138",
+                  "id": 43341,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "176:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_18_by_1",
+                    "typeString": "int_const 18"
+                  },
+                  "value": "18"
+                },
+                {
+                  "hexValue": "3139",
+                  "id": 43342,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "180:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_19_by_1",
+                    "typeString": "int_const 19"
+                  },
+                  "value": "19"
+                },
+                {
+                  "hexValue": "3230",
+                  "id": 43343,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "184:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_20_by_1",
+                    "typeString": "int_const 20"
+                  },
+                  "value": "20"
+                },
+                {
+                  "hexValue": "3131",
+                  "id": 43344,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "192:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_11_by_1",
+                    "typeString": "int_const 11"
+                  },
+                  "value": "11"
+                },
+                {
+                  "hexValue": "3132",
+                  "id": 43345,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "196:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_12_by_1",
+                    "typeString": "int_const 12"
+                  },
+                  "value": "12"
+                },
+                {
+                  "hexValue": "3133",
+                  "id": 43346,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "200:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_13_by_1",
+                    "typeString": "int_const 13"
+                  },
+                  "value": "13"
+                },
+                {
+                  "hexValue": "3134",
+                  "id": 43347,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "204:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_14_by_1",
+                    "typeString": "int_const 14"
+                  },
+                  "value": "14"
+                },
+                {
+                  "hexValue": "3135",
+                  "id": 43348,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "208:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_15_by_1",
+                    "typeString": "int_const 15"
+                  },
+                  "value": "15"
+                },
+                {
+                  "hexValue": "3136",
+                  "id": 43349,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "212:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_16_by_1",
+                    "typeString": "int_const 16"
+                  },
+                  "value": "16"
+                },
+                {
+                  "hexValue": "3137",
+                  "id": 43350,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "216:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_17_by_1",
+                    "typeString": "int_const 17"
+                  },
+                  "value": "17"
+                },
+                {
+                  "hexValue": "3138",
+                  "id": 43351,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "220:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_18_by_1",
+                    "typeString": "int_const 18"
+                  },
+                  "value": "18"
+                },
+                {
+                  "hexValue": "3139",
+                  "id": 43352,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "224:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_19_by_1",
+                    "typeString": "int_const 19"
+                  },
+                  "value": "19"
+                },
+                {
+                  "hexValue": "3230",
+                  "id": 43353,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "228:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_20_by_1",
+                    "typeString": "int_const 20"
+                  },
+                  "value": "20"
+                },
+                {
+                  "hexValue": "3131",
+                  "id": 43354,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "236:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_11_by_1",
+                    "typeString": "int_const 11"
+                  },
+                  "value": "11"
+                },
+                {
+                  "hexValue": "3132",
+                  "id": 43355,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "240:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_12_by_1",
+                    "typeString": "int_const 12"
+                  },
+                  "value": "12"
+                },
+                {
+                  "hexValue": "3133",
+                  "id": 43356,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "244:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_13_by_1",
+                    "typeString": "int_const 13"
+                  },
+                  "value": "13"
+                },
+                {
+                  "hexValue": "3134",
+                  "id": 43357,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "248:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_14_by_1",
+                    "typeString": "int_const 14"
+                  },
+                  "value": "14"
+                },
+                {
+                  "hexValue": "3135",
+                  "id": 43358,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "252:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_15_by_1",
+                    "typeString": "int_const 15"
+                  },
+                  "value": "15"
+                },
+                {
+                  "hexValue": "3136",
+                  "id": 43359,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "256:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_16_by_1",
+                    "typeString": "int_const 16"
+                  },
+                  "value": "16"
+                },
+                {
+                  "hexValue": "3137",
+                  "id": 43360,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "260:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_17_by_1",
+                    "typeString": "int_const 17"
+                  },
+                  "value": "17"
+                },
+                {
+                  "hexValue": "3138",
+                  "id": 43361,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "264:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_18_by_1",
+                    "typeString": "int_const 18"
+                  },
+                  "value": "18"
+                },
+                {
+                  "hexValue": "3139",
+                  "id": 43362,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "268:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_19_by_1",
+                    "typeString": "int_const 19"
+                  },
+                  "value": "19"
+                },
+                {
+                  "hexValue": "3230",
+                  "id": 43363,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "272:2:18",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_20_by_1",
+                    "typeString": "int_const 20"
+                  },
+                  "value": "20"
+                }
+              ],
+              "id": 43364,
+              "isConstant": false,
+              "isInlineArray": true,
+              "isLValue": false,
+              "isPure": true,
+              "lValueRequested": false,
+              "nodeType": "TupleExpression",
+              "src": "111:164:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint8_$40_memory_ptr",
+                "typeString": "uint8[40] memory"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 43367,
+            "nodeType": "VariableDeclaration",
+            "src": "282:33:18",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "6eecf67b",
+            "mutability": "mutable",
+            "name": "lastGasUsedRegular",
+            "nameLocation": "297:18:18",
+            "scope": 43440,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 43366,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "282:7:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 43369,
+            "nodeType": "VariableDeclaration",
+            "src": "321:35:18",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "ea528713",
+            "mutability": "mutable",
+            "name": "lastGasUsedOptimized",
+            "nameLocation": "336:20:18",
+            "scope": 43440,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 43368,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "321:7:18",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 43404,
+            "nodeType": "FunctionDefinition",
+            "src": "363:263:18",
+            "nodes": [],
+            "body": {
+              "id": 43403,
+              "nodeType": "Block",
+              "src": "410:216:18",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    43375
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 43375,
+                      "mutability": "mutable",
+                      "name": "startingGas",
+                      "nameLocation": "428:11:18",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 43403,
+                      "src": "420:19:18",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 43374,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "420:7:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 43378,
+                  "initialValue": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 43376,
+                      "name": "gasleft",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -7,
+                      "src": "442:7:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_gasleft_view$__$returns$_t_uint256_$",
+                        "typeString": "function () view returns (uint256)"
+                      }
+                    },
+                    "id": 43377,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "442:9:18",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "420:31:18"
+                },
+                {
+                  "body": {
+                    "id": 43392,
+                    "nodeType": "Block",
+                    "src": "502:28:18",
+                    "statements": [
+                      {
+                        "expression": {
+                          "id": 43390,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "UnaryOperation",
+                          "operator": "++",
+                          "prefix": false,
+                          "src": "516:3:18",
+                          "subExpression": {
+                            "id": 43389,
+                            "name": "i",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 43380,
+                            "src": "516:1:18",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 43391,
+                        "nodeType": "ExpressionStatement",
+                        "src": "516:3:18"
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 43385,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "id": 43382,
+                      "name": "i",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43380,
+                      "src": "477:1:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "<",
+                    "rightExpression": {
+                      "expression": {
+                        "id": 43383,
+                        "name": "myArray",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 43365,
+                        "src": "481:7:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                          "typeString": "uint256[] storage ref"
+                        }
+                      },
+                      "id": 43384,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "489:6:18",
+                      "memberName": "length",
+                      "nodeType": "MemberAccess",
+                      "src": "481:14:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "477:18:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 43393,
+                  "initializationExpression": {
+                    "assignments": [
+                      43380
+                    ],
+                    "declarations": [
+                      {
+                        "constant": false,
+                        "id": 43380,
+                        "mutability": "mutable",
+                        "name": "i",
+                        "nameLocation": "474:1:18",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 43393,
+                        "src": "466:9:18",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 43379,
+                          "name": "uint256",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "466:7:18",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "visibility": "internal"
+                      }
+                    ],
+                    "id": 43381,
+                    "nodeType": "VariableDeclarationStatement",
+                    "src": "466:9:18"
+                  },
+                  "loopExpression": {
+                    "expression": {
+                      "id": 43387,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "++",
+                      "prefix": false,
+                      "src": "497:3:18",
+                      "subExpression": {
+                        "id": 43386,
+                        "name": "i",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 43380,
+                        "src": "497:1:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 43388,
+                    "nodeType": "ExpressionStatement",
+                    "src": "497:3:18"
+                  },
+                  "nodeType": "ForStatement",
+                  "src": "461:69:18"
+                },
+                {
+                  "expression": {
+                    "id": 43399,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 43394,
+                      "name": "lastGasUsedRegular",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43367,
+                      "src": "540:18:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 43398,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "id": 43395,
+                        "name": "startingGas",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 43375,
+                        "src": "561:11:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "-",
+                      "rightExpression": {
+                        "arguments": [],
+                        "expression": {
+                          "argumentTypes": [],
+                          "id": 43396,
+                          "name": "gasleft",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -7,
+                          "src": "575:7:18",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_gasleft_view$__$returns$_t_uint256_$",
+                            "typeString": "function () view returns (uint256)"
+                          }
+                        },
+                        "id": 43397,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "575:9:18",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "src": "561:23:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "540:44:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 43400,
+                  "nodeType": "ExpressionStatement",
+                  "src": "540:44:18"
+                },
+                {
+                  "expression": {
+                    "id": 43401,
+                    "name": "lastGasUsedRegular",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 43367,
+                    "src": "601:18:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 43373,
+                  "id": 43402,
+                  "nodeType": "Return",
+                  "src": "594:25:18"
+                }
+              ]
+            },
+            "functionSelector": "e150422b",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "badCaching",
+            "nameLocation": "372:10:18",
+            "parameters": {
+              "id": 43370,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "382:2:18"
+            },
+            "returnParameters": {
+              "id": 43373,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 43372,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 43404,
+                  "src": "401:7:18",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 43371,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "401:7:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "400:9:18"
+            },
+            "scope": 43440,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 43439,
+            "nodeType": "FunctionDefinition",
+            "src": "632:269:18",
+            "nodes": [],
+            "body": {
+              "id": 43438,
+              "nodeType": "Block",
+              "src": "680:221:18",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    43410
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 43410,
+                      "mutability": "mutable",
+                      "name": "startingGas",
+                      "nameLocation": "698:11:18",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 43438,
+                      "src": "690:19:18",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 43409,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "690:7:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 43413,
+                  "initialValue": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "id": 43411,
+                      "name": "gasleft",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": -7,
+                      "src": "712:7:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_gasleft_view$__$returns$_t_uint256_$",
+                        "typeString": "function () view returns (uint256)"
+                      }
+                    },
+                    "id": 43412,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "712:9:18",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "690:31:18"
+                },
+                {
+                  "body": {
+                    "id": 43427,
+                    "nodeType": "Block",
+                    "src": "772:29:18",
+                    "statements": [
+                      {
+                        "expression": {
+                          "id": 43425,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "UnaryOperation",
+                          "operator": "++",
+                          "prefix": false,
+                          "src": "786:3:18",
+                          "subExpression": {
+                            "id": 43424,
+                            "name": "i",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 43415,
+                            "src": "786:1:18",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 43426,
+                        "nodeType": "ExpressionStatement",
+                        "src": "786:3:18"
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 43420,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "id": 43417,
+                      "name": "i",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43415,
+                      "src": "747:1:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "<",
+                    "rightExpression": {
+                      "expression": {
+                        "id": 43418,
+                        "name": "myArray",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 43365,
+                        "src": "751:7:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_uint256_$dyn_storage",
+                          "typeString": "uint256[] storage ref"
+                        }
+                      },
+                      "id": 43419,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "759:6:18",
+                      "memberName": "length",
+                      "nodeType": "MemberAccess",
+                      "src": "751:14:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "747:18:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 43428,
+                  "initializationExpression": {
+                    "assignments": [
+                      43415
+                    ],
+                    "declarations": [
+                      {
+                        "constant": false,
+                        "id": 43415,
+                        "mutability": "mutable",
+                        "name": "i",
+                        "nameLocation": "744:1:18",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 43428,
+                        "src": "736:9:18",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 43414,
+                          "name": "uint256",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "736:7:18",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "visibility": "internal"
+                      }
+                    ],
+                    "id": 43416,
+                    "nodeType": "VariableDeclarationStatement",
+                    "src": "736:9:18"
+                  },
+                  "loopExpression": {
+                    "expression": {
+                      "id": 43422,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "++",
+                      "prefix": false,
+                      "src": "767:3:18",
+                      "subExpression": {
+                        "id": 43421,
+                        "name": "i",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 43415,
+                        "src": "767:1:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 43423,
+                    "nodeType": "ExpressionStatement",
+                    "src": "767:3:18"
+                  },
+                  "nodeType": "ForStatement",
+                  "src": "731:70:18"
+                },
+                {
+                  "expression": {
+                    "id": 43434,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 43429,
+                      "name": "lastGasUsedOptimized",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 43369,
+                      "src": "811:20:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 43433,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "id": 43430,
+                        "name": "startingGas",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 43410,
+                        "src": "834:11:18",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "-",
+                      "rightExpression": {
+                        "arguments": [],
+                        "expression": {
+                          "argumentTypes": [],
+                          "id": 43431,
+                          "name": "gasleft",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -7,
+                          "src": "848:7:18",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_gasleft_view$__$returns$_t_uint256_$",
+                            "typeString": "function () view returns (uint256)"
+                          }
+                        },
+                        "id": 43432,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "848:9:18",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "src": "834:23:18",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "811:46:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 43435,
+                  "nodeType": "ExpressionStatement",
+                  "src": "811:46:18"
+                },
+                {
+                  "expression": {
+                    "id": 43436,
+                    "name": "lastGasUsedOptimized",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 43369,
+                    "src": "874:20:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 43408,
+                  "id": 43437,
+                  "nodeType": "Return",
+                  "src": "867:27:18"
+                }
+              ]
+            },
+            "functionSelector": "6b51f630",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "goodCaching",
+            "nameLocation": "641:11:18",
+            "parameters": {
+              "id": 43405,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "652:2:18"
+            },
+            "returnParameters": {
+              "id": 43408,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 43407,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 43439,
+                  "src": "671:7:18",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 43406,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "671:7:18",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "670:9:18"
+            },
+            "scope": 43440,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ArrayLength",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          43440
+        ],
+        "name": "ArrayLength",
+        "nameLocation": "68:11:18",
+        "scope": 43441,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 18
+}
