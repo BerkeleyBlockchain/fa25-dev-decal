@@ -14,6 +14,8 @@ Homework #3 (Implementing NFT Marketplace) - https://forms.gle/pkdAWWhjLcRRWFYq8
 
 Homework #4 (Ethers.js) - https://forms.gle/vDHvu3qsEH1tmkUe7
 
+Homework #5 (Gas Optimization) - https://forms.gle/jth8BfTaAUaLVu1F6
+
 ## Contact Info
 
 For help/questions, email: dev-decal@blockchain.berkeley.edu
