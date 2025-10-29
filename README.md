@@ -16,9 +16,7 @@ Homework #4 (Ethers.js) - https://forms.gle/vDHvu3qsEH1tmkUe7
 
 Homework #5 (Gas Optimization) - https://forms.gle/jth8BfTaAUaLVu1F6
 
-NO HOMEWORK #6!!!
-
-Homework #7 (Rust Basics) - https://forms.gle/UntnwpvW2ti8Cj4u8
+Homework #6 (Rust Basics) - https://forms.gle/UntnwpvW2ti8Cj4u8
 
 ## Contact Info
 
