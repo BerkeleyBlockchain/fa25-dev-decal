@@ -97,6 +97,6 @@ cargo test
 ```
 
 ## Submission
-Submit your solution.rs file to Gradescope under the assignment for Homework 6.
+Submit your solution.rs file to the [Homework 6 google form submission link](https://forms.gle/UntnwpvW2ti8Cj4u8).
 ## Tips
 Always refer to the Rust documentation when stuck.
