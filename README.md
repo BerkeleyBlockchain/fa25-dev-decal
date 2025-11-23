@@ -18,6 +18,8 @@ Homework #5 (Gas Optimization) - https://forms.gle/jth8BfTaAUaLVu1F6
 
 Homework #6 (Rust Basics) - https://forms.gle/UntnwpvW2ti8Cj4u8
 
+Homework #7 (CosmWasm) - https://forms.gle/H9KwWzZs7S1LDnnY7
+
 ## Contact Info
 
 For help/questions, email: dev-decal@blockchain.berkeley.edu
